@@ -324,6 +324,6 @@ except ImportError:
 else:
     set_dynamic_settings(globals())
 
-SECRET_KEY = "django-insecure-w)zqi1&hch_ej#$s^q^ci2_l2o!83knx&ba_z6m&rl(1swo#vh"
+SECRET_KEY = "SECRET_KEY"
 ALLOWED_HOSTS = ["*"]
 STATIC_ROOT = 'static'
